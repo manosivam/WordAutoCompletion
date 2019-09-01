@@ -21,7 +21,9 @@ and then load it back later without rebuilding it from the original list of name
 
 Interfaces: 
 - [IAutoCompletion](https://github.com/manosivam/WordAutoCompletion/blob/master/src/editor/autocompletion/IAutoCompletion.java) (editor.autocompletion.IAutoCompletion.java)
-	``` List<String> getSuggestions(String query); ```
+	``` 
+	List<String> getSuggestions(String query); 
+	```
 - [ITrie](https://github.com/manosivam/WordAutoCompletion/blob/master/src/editor/autocompletion/model/ITrie.java) (editor.autocompletion.model.ITrie.java)
 	```
 		void insert(String word, Integer score);
