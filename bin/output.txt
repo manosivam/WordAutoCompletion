@@ -1,0 +1,93 @@
+....Initializing required components....
+.... type word<Space>score as input ...
+.... Example 1: revenue 200 ....
+.... Example 2: yearly_revenue 10 ....
+.... type "done" to stop entering words and print all words ....
+book_revision 1000
+rev_tag 20
+revolution 200
+ammo 200
+revision 101
+tag 30
+revolve 22
+revolver 21
+rev_tag 20
+revs 20
+recent 20
+rev 20
+revised 20
+revss 30
+rev_tag_tags 10
+done
+....Printing all words with its score....
+........................................................................
+....Before serialization printing all words in trie with its score....
+[name score] = [1000 book_revision]
+[name score] = [200 revolution]
+[name score] = [200 ammo]
+[name score] = [101 revision]
+[name score] = [30 tag]
+[name score] = [30 revss]
+[name score] = [22 revolve]
+[name score] = [21 revolver]
+[name score] = [20 rev_tag]
+[name score] = [20 revs]
+[name score] = [20 recent]
+[name score] = [20 rev]
+[name score] = [20 revised]
+[name score] = [10 rev_tag_tags]
+....Serialization in progress....
+....Serialization done....
+....After deserialization, printing all words with its score....
+[name score] = [1000 book_revision]
+[name score] = [200 revolution]
+[name score] = [200 ammo]
+[name score] = [101 revision]
+[name score] = [30 tag]
+[name score] = [30 revss]
+[name score] = [22 revolve]
+[name score] = [21 revolver]
+[name score] = [20 rev_tag]
+[name score] = [20 revs]
+[name score] = [20 recent]
+[name score] = [20 rev]
+[name score] = [20 revised]
+[name score] = [10 rev_tag_tags]
+........................................................................
+..... Enter words (in new line) to get suggestions ....
+.... type "done" to stop getting suggestions ....
+rev
+.... Getting suggestions for [rev]
+book_revision,1000
+revolution,200
+revision,101
+revss,30
+revolve,22
+revolver,21
+rev_tag,20
+revs,20
+rev,20
+revised,20
+..........................................
+revision
+.... Getting suggestions for [revision]
+book_revision,1000
+revision,101
+..........................................
+tag
+.... Getting suggestions for [tag]
+tag,30
+rev_tag,20
+rev_tag_tags,10
+..........................................
+tags
+.... Getting suggestions for [tags]
+rev_tag_tags,10
+..........................................
+done
+..........................................................
+.... want to stop the application? type yes or no ....
+.... no or invalid input - go to feed more words ....
+.... yes - to stop the application ....
+yes
+.... Stopping application. Thank you, Have a good day! ....
