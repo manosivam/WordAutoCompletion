@@ -1,6 +1,6 @@
 ## Editor: Auto-completion feature. 
 
-###Use case: 
+### Use case: 
 
 We will get as input a long list of (name, score) pairs. We want to create a program that takes a
 list of these name score pairs and then suggests the top 10 names (by score) that match a
@@ -44,13 +44,13 @@ Classes involved:
 		private char value; 
 		private HashMap<Character,TrieNode> children; 
 		private boolean bIsEnd;
-		private TreeMap<Integer,ArrayList<String>> scoreNameListMap;//to make the search efficient ***(Time complexity: O(length of query))***, we are storing all words (word,score) in every node
+		private TreeMap<Integer,ArrayList<String>> scoreNameListMap;//to make the search efficient *** (Time complexity: O(length of query)) ***, we are storing all words (word,score) in every node
 		```
 - Trie (editor.autocompletion.model.Trie.java)(Datastructure to hold words)
 	- Singleton class for a autocompletion. 
 	- Structure is (only data members)
 		```
-		private TrieNode root; **//root node will be have character _. For any word with underscore, the TrieNode of the last character before underscore will point to root TrieNode.**
+		private TrieNode root; ** //root node will be have character _. For any word with underscore, the TrieNode of the last character before underscore will point to root TrieNode. **
 		```
 - Constants (editor.autocompletion.utils.Constants.java)
 
@@ -62,5 +62,5 @@ Classes involved:
 	4. Type in the query string. 
 	5. AutoCompletion algorithm will suggest the top 10 (by score) words. 
 
-###Note: please refer output.txt for sample output of the program. 
+### Note: please refer output.txt for sample output of the program. 
 
