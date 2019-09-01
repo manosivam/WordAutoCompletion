@@ -62,7 +62,7 @@ Classes involved:
 	4. Type in the query string. 
 	5. AutoCompletion algorithm will suggest the top 10 (by score) words. 
 
-	- [Main class](https://github.com/manosivam/WordAutoCompletion/blob/master/src/editor/autocompletion/driver/Driver.java)	
+- [Main class](https://github.com/manosivam/WordAutoCompletion/blob/master/src/editor/autocompletion/driver/Driver.java)	
 	
 ### Note: please refer output.txt for sample output of the program. 
 [output file](https://github.com/manosivam/WordAutoCompletion/blob/master/bin/output.txt)
