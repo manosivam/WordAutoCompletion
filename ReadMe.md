@@ -19,6 +19,8 @@ In addition to creating the query serving program, we would like to be able to s
 underlying data structure this program uses. We should be able to save this structure to disk
 and then load it back later without rebuilding it from the original list of name score pairs.
 
+Time Complexity: *** O(length of query) ***
+
 Interfaces: 
 - [IAutoCompletion](https://github.com/manosivam/WordAutoCompletion/blob/master/src/editor/autocompletion/IAutoCompletion.java) (editor.autocompletion.IAutoCompletion.java)
 	``` 
